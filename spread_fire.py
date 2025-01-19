@@ -1,3 +1,5 @@
+import copy
+
 def spread_fire(grid):
     new_grid = grid.copy()
     for i in range(grid.shape[0]):
